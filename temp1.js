@@ -1,5 +1,5 @@
 
-alert("✅ Tampermonkey injected");
+alert("injected");
 
 (function () {
 
@@ -48,5 +48,6 @@ alert("✅ Tampermonkey injected");
 
         return originalSend.apply(this, arguments);
     };
+
 
 })();
